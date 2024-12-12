@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Read More</title>
+  <link rel="icon" href="images/favion.jpg">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    h5 {
+      color: #fff;
+      background-color: transparent;
+    }
+
+    h5:hover {
+      border-bottom: 3px solid black;
+      transform: scale(1.1);
+      transition: border-bottom 0.3s ease;
+      color: blue;
+    }
+
+  </style>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" target="_self">
+        <img src="images/logo.png" class="img-fluid" style="width: 100px; height: 50px;" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon fa-solid fa-bars"></i></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link" aria-current="page">Products</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-dark" href="categoryOne.html">Nicotine Salt Vapes</a></li>
+              <li><a class="dropdown-item text-dark" href="categoryTwo.html">Flavored Disposable Vapes</a></li>
+              <li><a class="dropdown-item text-dark" href="categoryThree.html">Long-Lasting Disposables</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" aria-current="page" class="nav-link">Contact Us</a>
+          </li>
+          <button class="animated jello infinite btn btn-outline-primary py-2 px-4 d-none d-lg-inline-block"
+            onclick="this.blur()">Show Now</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Read More About Products -->
+  <div class="container-fluid bg-dark" style="width: 100%; height: 70vh;">
+    <div class="container">
+      <div class="row g-3 py-5">
+        <div class="col-12 col-sm-12 text-center py-5">
+          <h5 class="text-white mt-5 fw-bold">Read More About Our Product</h5>
+          <p class="text-white">Explore the world of premium vape products designed to offer you an unparalleled
+            experience. Our collection features high-quality vapes crafted for both beginners and experienced users...
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Main Product Section -->
+  <div class="container mt-5 mt-5">
+    <h1 class="text-center text-uppercase text-success fw-bold animated jello infinite mb-5">Vapes - Premium Experience
+    </h1>
+    <p id="vapeContent">
+      Vaping has become an increasingly popular alternative to traditional smoking. It involves inhaling vapor from a
+      device called a vaporizer...
+      <span id="dots">...</span><span id="moreText" style="display: none;">
+        The concept of vaping dates back to the 1960s when Herbert A. Gilbert patented the first "smokeless" cigarette.
+        However, modern vaping as we know it today, with electronic devices and e-liquids Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Dignissimos aperiam ipsa voluptatibus recusandae laudantium id cum nobis, possimus
+        quasi dicta repudiandae unde officia sint ea autem hic voluptates facilis et.
+      </span>
+    </p>
+    <button  class=" animated jello infinite btn btn-primary mb-2 readMoreButton" onclick="this.blur()">Read
+      More</button>
+  </div>
+  <!-- Additional Content Section -->
+  <div class="container py-5">
+    <h2 class="text-center text-uppercase text-success fw-bold animated jello infinite mb-5">Why Choose Our Products?
+    </h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card bg-light border-0 shadow">
+          <div class="card-body">
+            <h3 class="card-title text-primary fw-bold ">Premium Quality</h3>
+            <p class="card-text">Our vapes are crafted with the finest materials ensuring a superior experience for
+              every puff.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-light border-0 shadow">
+          <div class="card-body">
+            <h3 class="card-title text-primary fw-bold">Wide Flavor Range</h3>
+            <p class="card-text">Choose from a variety of delicious flavors to suit your preferences and elevate your
+              vaping journey.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-light border-0 shadow">
+          <div class="card-body">
+            <h3 class="card-title text-primary fw-bold">Hassle-Free Use</h3>
+            <p class="card-text">No refilling or charging required. Just open the pack and enjoy your vape on the go!
+              Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Your existing subscription form Start -->
+  <div class="container-fluid mb- py-5 bg-dark" style="width: 100%; height: 50vh;">
+    <div class="container">
+      <div class="text-center">
+        <h4 style="color: white;" class="fw-bold mt-3">Let's Subscribe To The Newsletter</h4>
+        <p class="text-md-e" style="color: white;">Subscribe now to get a 30% discount on any of our products</p>
+        <div class="input-group">
+          <input type="email" id="emailInput" class="form-control" placeholder="enter your email" required>
+          <span class="input-group-text">
+            <i class="fas fa-envelope animated jello infinite"></i>
+          </span>
+          <button  class="btn btn-outline-light readMoreButton" id="subscribeButton" onclick="handleSubscription()">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer section -->
+  <footer class="text-center text-lg-start bg-dark text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f  animated jello infinite"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter  animated jello infinite"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google  animated jello infinite"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram  animated jello infinite"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin  animated jello infinite "></i>
+        </a>
+      </div>
+    </section>    
+    <section>
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 d-flex">
+              <p class="text-white text-muted">RELX WORLD</p>
+            </h6>
+            <p>
+              At relx-world, we provide high-quality disposable vapes with a variety of flavors. Enjoy an easy, hassle-free vaping experience with no refills needed.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-white text-muted">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Disposable Vapes</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">VapeX Pods</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Nicotine-Free Vapes</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Vape Starter Kits</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-white text-muted">
+              Popular links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">How It Works</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Order Tracking</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Customer Reviews</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">FAQ</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-white text-muted">Get In Touch</h6>
+            <p><i class="fas fa-envelope me-3"></i>support@vapexpress.com</p>
+            <p><i class="fas fa-phone me-3"></i> <a href="" class="text-muted text-decoration-none">03333333333333</a></p>
+            <p><i class="fa-brands fa-whatsapp me-3 "></i> +92 0937398340349</p>
+            <p><i class="fas fa-home me-3"></i> Phase-5 Khadda Market Karachi Near Bombay Bakery</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4  animated jello "  style="background-color: rgba(0, 0, 0, 0.05);">
+      <p class="text-light ">© 2024 Rlex Vape Shop. All rights reserved.</p>
+      <a target="_blank" class="text-reset fw-bold text-decoration-none " href="index.html">Relx World</a>
+    </div>
+    <a href="#" class="btn btn-lg btn-dark back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+  </footer>
+  <script src="script.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JQuery -->
+  <script>
+    const btn = document.getElementById("readMoreBtn");
+    const moreText = document.getElementById("moreText");
+    const dots = document.getElementById("dots");
+    btn.addEventListener("click", function () {
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        dots.style.display = "none";
+        btn.textContent = "Read Less";
+      } else {
+        moreText.style.display = "none";
+        dots.style.display = "inline";
+        btn.textContent = "Read More";
+
+      }
+    });
+    function handleSubscription() {
+    const emailInput = $('#emailInput').val(); 
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (emailInput === "") {
+      alert("Please enter your email.");
+      return;
+    }
+
+    if (!emailPattern.test(emailInput)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
+    window.location.href = "congurates.html";
+  }
+  </script>
+</body>
+
+</html>
